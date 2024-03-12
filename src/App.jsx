@@ -4,8 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Icon from '@mui/material/Icon';
 import AccessAlarmsIcon from '@mui/icons-material/AccessAlarms';
-import Div from "./Componentes/Div"
-
+import Div from "./Componentes/Div";
+import Carrusel from "./Componentes/Carrusel";
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
     
     <Div></Div>
 
-
+    <Carrusel></Carrusel>
 
 
 
