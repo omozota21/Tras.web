@@ -5,7 +5,10 @@ import './App.css'
 import Icon from '@mui/material/Icon';
 import AccessAlarmsIcon from '@mui/icons-material/AccessAlarms';
 import Div from "./Componentes/Div";
-import DisabledAccordion from "./Componentes/Acordeon"
+import DisabledAccordion from "./Componentes/Acordeon";
+import Carrusel  from './Componentes/Carrusel.jsx';
+
+
 
 
 function App() {
@@ -13,11 +16,7 @@ function App() {
 
   return (
     <>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-
+  
     <AccessAlarmsIcon>
     </AccessAlarmsIcon>
     
@@ -25,6 +24,7 @@ function App() {
 
     <DisabledAccordion></DisabledAccordion>
 
+    <div><Carrusel></Carrusel></div>
 
     </>
   )
