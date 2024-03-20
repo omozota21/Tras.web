@@ -4,30 +4,28 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Icon from '@mui/material/Icon';
 import AccessAlarmsIcon from '@mui/icons-material/AccessAlarms';
-import Div from "./Componentes/Div";
-import DisabledAccordion from "./Componentes/Acordeon";
-import Carrusel  from './Componentes/Carrusel.jsx';
-
+import { PrimerComponente } from './Componentes/PrimerComponente';
+import { SegundoComponente } from './Componentes/SegundoComponente';
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-  
-    <AccessAlarmsIcon>
-    </AccessAlarmsIcon>
-    
-    <Div></Div>
-
-    <DisabledAccordion></DisabledAccordion>
-
-    <div><Carrusel></Carrusel></div>
+      <div>
+          <img></img>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim natus non fuga ratione nobis expedita dolorem alias tempora, nemo dignissimos exercitationem quo saepe? Itaque soluta dolor, exercitationem eligendi repudiandae reprehenderit?</p>
+          <PrimerComponente></PrimerComponente>
+          <SegundoComponente></SegundoComponente>
+      </div>
 
     </>
   )
+
+  
 }
 
-export default App
+
+export default App;
